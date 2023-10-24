@@ -1,0 +1,57 @@
+.message-container {
+    max-height: 300px; /* Ajusta la altura máxima según tus preferencias */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando los mensajes excedan la altura máxima */
+    background-color: #f2f2f2; /* Color de fondo para el contenedor de mensajes */
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    clear: both;
+    max-width: 70%;
+}
+
+.message-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.avatar img {
+    width: 40px; /* Ajusta el tamaño del avatar según tus preferencias */
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.message-content {
+    padding: 10px;
+}
+
+/* Estilos para los mensajes del usuario autenticado */
+.message-right {
+    float: right;
+    background-color: #DCF8C6; /* Color de fondo para mensajes del usuario autenticado */
+}
+
+/* Estilos para los mensajes de otros usuarios */
+.message-left {
+    float: left;
+    background-color: #a8c5eb; /* Color de fondo para mensajes de otros usuarios */
+}
+
+/* Estilos para la fecha */
+.message-date {
+    font-size: 10px; 
+    text-align: right; 
+    color: #888; 
+    clear: both;
+}
+
+
+

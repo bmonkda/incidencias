@@ -1,0 +1,35 @@
+/* Estilos generales para el contenedor detalle */
+.detalle {
+    background-color: #f5f5f5; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Margen exterior */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para cada elemento de detalle */
+.detalle-item {
+    margin-bottom: 10px; /* Espaciado entre elementos */
+}
+
+/* Estilos para los títulos de detalle */
+.detalle-titulo {
+    font-weight: bold; /* Texto en negrita */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para las descripciones de detalle */
+.detalle-descripcion {
+    color: #666; /* Color del texto */
+}
+
+/* Estilos específicos para los enlaces dentro de descripciones */
+.detalle-descripcion a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos cuando el enlace está en estado hover (sobre él) */
+.detalle-descripcion a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
