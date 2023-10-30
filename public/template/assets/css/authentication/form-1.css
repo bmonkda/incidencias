@@ -26,7 +26,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-image: url('template/assets/img/login4b.png');
+/* background-image: url('/template/assets/img/login4b.png'); */
+  background-image: url('incidencias/template/assets/img/login4b.png'');
   position: absolute;
     height: 100%;
     background-color: #ffffff;

@@ -44,7 +44,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('template/assets/img/50677.jpg');
+            background-image: url('/incidencias/template/assets/img/50677.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             opacity: 0.2;
